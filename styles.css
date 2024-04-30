@@ -8,21 +8,19 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #fc4100; /* Primary Color */
-    background-color: #2c4e80; /* Background Color */
+    color: #b5c18e; /* Primary Color */
+    background-color: #b99470; /* Background Color */
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
     padding: 20px;
-    background-color: #ffc55a; /* Secondary Color */
+    background-color: #f7dcb9; /* Secondary Color */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for container */
 }
 
 header {
-    background-color: #fc4100; /* Primary Color */
+    background-color: #b5c18e; /* Primary Color */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -45,11 +43,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00215e; /* Accent Color */
+    color: #deac80; /* Accent Color */
 }
 
 section {
-    padding: 40px 0;
+    padding: 40px;
     background-color: #fff; /* White background for sections */
     margin-bottom: 20px;
     border-radius: 5px;
@@ -57,8 +55,9 @@ section {
 }
 
 h1, h2, h3 {
-    color: #fc4100; /* Primary Color */
+    color: #b5c18e; /* Primary Color */
     text-align: center;
+    margin-bottom: 20px; /* Add spacing below headings */
 }
 
 p {
@@ -80,7 +79,7 @@ p {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #fc4100; /* Primary Color */
+    background-color: #b5c18e; /* Primary Color */
     color: #fff;
 }
 
