@@ -8,21 +8,21 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #32012f; /* Primary Color */
-    background-color: #524c42; /* Secondary Color */
+    color: #fc4100; /* Primary Color */
+    background-color: #2c4e80; /* Background Color */
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #e2dfd0; /* Accent Color */
+    background-color: #ffc55a; /* Secondary Color */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for container */
 }
 
 header {
-    background-color: #32012f; /* Primary Color */
+    background-color: #fc4100; /* Primary Color */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e2dfd0; /* Accent Color */
+    color: #00215e; /* Accent Color */
 }
 
 section {
@@ -57,7 +57,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #32012f; /* Primary Color */
+    color: #fc4100; /* Primary Color */
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ p {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #32012f; /* Primary Color */
+    background-color: #fc4100; /* Primary Color */
     color: #fff;
 }
 
