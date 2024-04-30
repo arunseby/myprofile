@@ -8,14 +8,20 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
     color: #333;
+    background-image: url('BG.jpg'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add box shadow for container */
 }
 
 header {
@@ -47,15 +53,15 @@ nav ul li a:hover {
 
 section {
     padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.95); /* Add semi-transparent white background for sections */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3 {
     color: #343a40;
     text-align: center;
-}
-
-h2 {
-    font-size: 2em;
 }
 
 p {
@@ -72,37 +78,6 @@ p {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #343a40;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ffc107;
-    color: #343a40;
 }
 
 footer {
