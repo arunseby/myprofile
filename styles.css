@@ -8,7 +8,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #b5c18e; /* Primary Color */
+    color: #000; /* Set text color to black */
     background-color: #b99470; /* Background Color */
 }
 
@@ -55,7 +55,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #b5c18e; /* Primary Color */
+    color: #000; /* Set heading color to black */
     text-align: center;
     margin-bottom: 20px; /* Add spacing below headings */
 }
