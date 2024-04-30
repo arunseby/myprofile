@@ -1,40 +1,125 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    margin-top: 20px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
 }
 
 section {
-    padding: 50px;
+    padding: 40px 0;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+    text-align: center;
 }
 
 h2 {
-    color: #333;
+    font-size: 2em;
 }
 
-portfolio-item {
+p {
+    font-size: 1.1em;
     margin-bottom: 20px;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc107;
+    color: #343a40;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #333;
+    padding: 20px 0;
+    background-color: #343a40;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
